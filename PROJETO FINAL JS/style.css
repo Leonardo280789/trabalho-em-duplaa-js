@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color:#ffe5be;
+    font-size: 20px;
+}
+ 
+h2{
+    font-size: 40px;
+    color: brown;
+}
+
+#imagem{
+    width: 20%;
+}
+section{ 
+    text-align: center;
+    font-size: 15px;
+}
+
+#diferencial1{
+    width: 19.8%;
+    padding: 15px;
+    box-shadow: 3px 3px 3px 3px #ee1d70;
+    margin-inline-start: 20px;
+    
+    
+}
+
+#diferencial2{
+    width: 21.3%;
+    padding: 15px;
+    box-shadow: 3px 3px 3px 3px orange;
+    margin-inline-start: 20px;
+}
+
+#diferencial3{
+    width: 23.9%;
+    padding: 15px;
+    box-shadow: 3px 3px 3px 3px #83cd2d;
+    margin-inline-start: 20px;
+    
+}
+
+footer{
+    font-style: italic;
+}
+
+form{
+    font-size: 30px;
+}

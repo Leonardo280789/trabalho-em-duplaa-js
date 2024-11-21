@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Crescer e Aprender </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="carregar()">
+    <header>
+     
+     <img id="img" src="crescer.aprender1.png" alt="escola">
+     
+    </header>
+    <section>
+
+        <div id="foto">
+            <img id="imagem" src="bomdia1.png" alt="Manha">
+     
+        </div>
+     
+        </section>
+
+        <div id="area" onmouseover="entrou()" onmouseout="saiu()">
+        <h2> Turmas </h2>
+    </div>
+        
+            <img id="diferencial1" src="ed_infantil.jpg" alt="edinfantil" >
+            <img id="diferencial2" src="anos_iniciais.JPG" alt="anos_iniciais" >
+            <img id="diferencial3" src="bilingue.JPG" alt="bilingue" >
+    
+            <div id="resultado" onmouseover="entrou1()" onmouseout="saiu2()">
+                <h2> Calculadora de Média </h2>
+            </div>       
+            <form>      
+            Primeira nota <input id="nota1" type="number"> <br />
+            Segunda  nota <input id="nota2" type="number"> <br />
+            Terceira nota <input id="nota3" type="number"> <br />
+            <button onclick="media()">Calcular Média</button>
+        </form> 
+        <div id="pontos" onmouseover="entrou2()" onmouseout="saiu3()">
+            <h2> Pontos Fortes </h2> </div>
+            <p id="pontosfortes"></p>
+
+            
+
+
+            
+    <footer>
+        <p>&copy; Ana Caroline Martendal & Leonardo da Silva </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
